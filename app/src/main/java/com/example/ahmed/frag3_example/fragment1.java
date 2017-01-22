@@ -25,6 +25,7 @@ public class fragment1 extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment1_layout, container, false);
 
+
         b1= (Button) view.findViewById(R.id.button);
         e1= (EditText)view.findViewById(R.id.editText);
         e2= (EditText)view.findViewById(R.id.editText2);
@@ -40,6 +41,7 @@ public class fragment1 extends Fragment {
                 smsManager.sendTextMessage(number,null ,message, null ,null);
             }
         });
+         /**/
 
         return view;
 

@@ -24,9 +24,10 @@ public class Fragment2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
 
-        View view = inflater.inflate(R.layout.fragment1_layout, container, false);
+        View view = inflater.inflate(R.layout.fragment2_layout, container, false);
 
-        b1= (Button) view.findViewById(R.id.button);
+
+        b1= (Button) view.findViewById(R.id.button4);
         e1= (EditText)view.findViewById(R.id.editText3);
 
         b1.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +44,8 @@ public class Fragment2 extends Fragment {
                 startActivity(intent);
             }
         });
+
+        /**/
 
         return view;
 
